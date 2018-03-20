@@ -1,10 +1,11 @@
-a=int(input("enter First number"));
-b=int(input("enter Second number"));
+a=int(input("enter first number"));
+b=int(input("enter second number"));
 c=int(input("enter third number"));
-if((a>b) and (a>c)):
+if((a>b) and (a>b)):
   largest=a
 elif((b>a) and (b>c)):
   largest=b
 else:
   largest=c
-print("Largest of three is",largest)
+print("largest is",largest)
+  
